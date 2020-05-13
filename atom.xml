@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Ranger.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-05-13T03:50:03.781Z</updated>
+    <title>hallo</title>
+    <updated>2020-05-13T03:50:29.810Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Ranger.github.io"/>
     <link rel="self" href="https://Ranger.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>涅而不缁</subtitle>
     <logo>https://Ranger.github.io/images/avatar.png</logo>
     <icon>https://Ranger.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, hallo</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://Ranger.github.io/post/hello-gridea/</id>
