@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://Ranger.github.io</id>
+    <id>https://onenote2016.github.io</id>
     <title>hallo</title>
-    <updated>2020-05-13T03:51:39.517Z</updated>
+    <updated>2020-05-16T10:09:27.452Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://Ranger.github.io"/>
-    <link rel="self" href="https://Ranger.github.io/atom.xml"/>
+    <link rel="alternate" href="https://onenote2016.github.io"/>
+    <link rel="self" href="https://onenote2016.github.io/atom.xml"/>
     <subtitle>涅而不缁</subtitle>
-    <logo>https://Ranger.github.io/images/avatar.png</logo>
-    <icon>https://Ranger.github.io/favicon.ico</icon>
+    <logo>https://onenote2016.github.io/images/avatar.png</logo>
+    <icon>https://onenote2016.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, hallo</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://Ranger.github.io/post/hello-gridea/</id>
-        <link href="https://Ranger.github.io/post/hello-gridea/">
+        <id>https://onenote2016.github.io/post/hello-gridea/</id>
+        <link href="https://onenote2016.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
