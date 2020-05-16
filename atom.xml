@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://onenote2016.github.io</id>
     <title>国家一级保护废物</title>
-    <updated>2020-05-16T10:25:43.758Z</updated>
+    <updated>2020-05-16T10:36:14.202Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://onenote2016.github.io"/>
     <link rel="self" href="https://onenote2016.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://onenote2016.github.io/images/avatar.png</logo>
     <icon>https://onenote2016.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 国家一级保护废物</rights>
+    <entry>
+        <title type="html"><![CDATA[从自卑到自信]]></title>
+        <id>https://onenote2016.github.io/post/cong-zi-bei-dao-zi-xin/</id>
+        <link href="https://onenote2016.github.io/post/cong-zi-bei-dao-zi-xin/">
+        </link>
+        <updated>2020-05-16T10:33:46.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>不需要 别人的认可  不需要外界那麽多的人认可<br>
+从和别人比 到从和自己比<br>
+首先 要接纳自己<br>
+不是欺骗自己<br>
+要反思 我做错了什么  学会我自己不会的地方<br>
+定一个小目标!<br>
+和昨天的自己比 看一看还有多远的距离 让自己变得更加谦虚<br>
+最终 你会成为全世界最好的自己<br>
+每一个不曾起舞的日子 都是对生命的辜负</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DO MY SELF]]></title>
         <id>https://onenote2016.github.io/post/do-my-self/</id>
