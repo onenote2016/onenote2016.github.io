@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://onenote2016.github.io</id>
     <title>hallo</title>
-    <updated>2020-05-16T10:11:14.557Z</updated>
+    <updated>2020-05-16T10:12:00.549Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://onenote2016.github.io"/>
     <link rel="self" href="https://onenote2016.github.io/atom.xml"/>
@@ -10,6 +10,50 @@
     <logo>https://onenote2016.github.io/images/avatar.png</logo>
     <icon>https://onenote2016.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, hallo</rights>
+    <entry>
+        <title type="html"><![CDATA[guihua]]></title>
+        <id>https://onenote2016.github.io/post/guihua/</id>
+        <link href="https://onenote2016.github.io/post/guihua/">
+        </link>
+        <updated>2020-05-16T10:11:34.000Z</updated>
+        <content type="html"><![CDATA[<p>五月规划<br>
+1词汇没学完 可以做真题吗？<br>
+词汇语法的基础打好了，再做真题<br>
+2真题应该做那些年份，做题的顺序是什么？<br>
+最近11年真题（英语二）做清楚，从10年到19年 02年到09年真题 做英语一的11年真题 （精做真题）<br>
+3真题应该一整套做 还是一道一道题目做，那个效果好？<br>
+在初期（和考前） 一套一套的做真题，了解自己的水平。（模考）自己卡3个小时。<br>
+在中期，一题一题的做，一道题一解决<br>
+4为什么刷完题，看完解析，错误率仍然很高？<br>
+不能走过场，不要让自己感动<br>
+5用不用做模拟题or预测题？<br>
+只做真题<br>
+6精研真题的目标是什么？如何怎么做才能做到精研真题？<br>
+每个单词都认识；<br>
+每个句子结构和含义都清晰；<br>
+每道题目的考试类型，解题方法，正误选项的原因都清楚；<br>
+做到精研真题两个方面：<br>
+把真题当成为 无限接近考点的素材：<br>
+不要纠结自己对了多少道题目<br>
+三大要点：出题思路，解题技巧，正误选项的特点；<br>
+把真题当成为 精读的素材：<br>
+不断查缺补漏，单词，看视频（xdf）；积累写作素材<br>
+7精研真题的步骤：<br>
+粗读-查读-精度-复读-选读；<br>
+1粗读  要模拟考场  自己掐时间去做，不看答案，不查生词（每10分==18分钟），要求严格。<br>
+2查读  对答案，做完一遍 查生词，绘制自己的生词本（标好题号）<br>
+3精度  从到到尾自己看一遍，在没有生词的情况能否看懂，看不懂，自己标注，还做不对题目，将这个问题结合老师讲<br>
+4复读  掌握出题思路 解题技巧 正误分析 自己易错点在哪儿；把全部的文章，从到到尾，梳理一遍（生词，长难句），每一个题型，要点用彩色笔标准出来。<br>
+5选读  挑选写作的素材<br>
+8刷完许多题目，错误率很高，怎么办？<br>
+做真题，是为了查缺补漏；<br>
+要放平心态；<br>
+且不要掉以轻心；<br>
+9各题型同时做，还是只做阅读真题？<br>
+基础薄弱    建议先做阅读<br>
+基础良好    每个题型齐头并进</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://onenote2016.github.io/post/hello-gridea/</id>
