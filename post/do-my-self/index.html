@@ -117,13 +117,9 @@
       </div>
 
       
-        
-          <div id="gitalk-container"></div>
-        
 
-        
       
-
+        <div id="vlaine-comment"></div>
       
 
       <footer class="py-12 text-center px-4 md:px-0" v-pre>
@@ -299,28 +295,23 @@
     initImg();
   </script>
   
-  
-    
-      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script type="application/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
+    <script type="application/javascript" src="https://unpkg.com/valine"></script>
 <script type="application/javascript">
-
-  var gitalk = new Gitalk({
-    clientID: 'afb013582ff31a5da133',
-    clientSecret: '327962878e2bbfeb265e89b098ce011dc932b982',
-    repo: 'onenote2016.github.io',
-    owner: 'onenote2016',
-    admin: ['onenote2016'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
+  new Valine({
+    el: '#vlaine-comment',
+    appId: 'Rw6dhrVjSARBHledGwXMgRUD-gzGzoHsz',
+    appKey: 'K4G1FItjV82VdrH2WtSnTduc',
+    pageSize: 10,
+    notify: true,
+    avatar: 'mp',
+    verify: true,
+    placeholder: '来都来了，不妨评论一下',
+    visitor: true,
+    highlight: false,
+    recordIP: true,
   })
-
-  gitalk.render('gitalk-container')
-
 </script>
-
-    
+  
   
 </body>
 
