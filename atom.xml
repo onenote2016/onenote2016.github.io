@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://onenote2016.github.io</id>
     <title>国家一级保护废物</title>
-    <updated>2020-05-17T00:07:40.497Z</updated>
+    <updated>2020-05-17T01:41:39.537Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://onenote2016.github.io"/>
     <link rel="self" href="https://onenote2016.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://onenote2016.github.io/images/avatar.png</logo>
     <icon>https://onenote2016.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 国家一级保护废物</rights>
+    <entry>
+        <title type="html"><![CDATA[计算机技术控制]]></title>
+        <id>https://onenote2016.github.io/post/ji-suan-ji-ji-zhu-kong-zhi/</id>
+        <link href="https://onenote2016.github.io/post/ji-suan-ji-ji-zhu-kong-zhi/">
+        </link>
+        <updated>2020-05-17T01:39:57.000Z</updated>
+        <content type="html"><![CDATA[<p>第一节<br>
+<img src="https://onenote2016.github.io/post-images/1589679679674.jpg" alt="" loading="lazy"><br>
+第二节<br>
+<img src="https://onenote2016.github.io/post-images/1589679695115.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea教程（没有完工）]]></title>
         <id>https://onenote2016.github.io/post/gridea-jiao-cheng/</id>
