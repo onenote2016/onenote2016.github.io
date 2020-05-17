@@ -4,334 +4,224 @@
     <meta charset="utf-8" >
 
 <title>国家一级保护废物</title>
-<meta name="description" content="快要退休的大学生">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://onenote2016.github.io/favicon.ico?v=1589681052991">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://onenote2016.github.io/favicon.ico?v=1589681604516">
 <link rel="stylesheet" href="https://onenote2016.github.io/styles/main.css">
 
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="快要退休的大学生">
+    
   </head>
   <body>
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://onenote2016.github.io">国家一级保护废物</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
+    <div id="app" class="main">
 
-
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://onenote2016.github.io/post/规划/">五月规划</a>
-    </h2>
-    <p class="article-meta">
-      2020-05-16
-      
-    </p>
-    <p class="text-lead">
-      <p>👍👍👍👍👍👍</p>
-
-    </p>
-    <div class="row">
-      <a href="https://onenote2016.github.io/post/规划/" class="readmore-link">
-        <button>
-          Read More
-        </button>
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://onenote2016.github.io">
+        <img src="https://onenote2016.github.io/images/avatar.png?v=1589681604516" class="site-logo">
+        <h1 class="site-title">国家一级保护废物</h1>
       </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://onenote2016.github.io/post/ji-suan-ji-ji-zhu-kong-zhi/">计算机技术控制</a>
-    </h2>
-    <p class="article-meta">
-      2020-05-17
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://onenote2016.github.io/post/ji-suan-ji-ji-zhu-kong-zhi/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://onenote2016.github.io/post/gridea-jiao-cheng/">Gridea教程（没有完工）</a>
-    </h2>
-    <p class="article-meta">
-      2020-05-17
-      
-        <a href="https://onenote2016.github.io/tag/ZJJkRK_AJ/" class="badge warning">
-          Gridea
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://onenote2016.github.io/post/gridea-jiao-cheng/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://onenote2016.github.io/post/plc-xi-ti-ji/">PLC习题集</a>
-    </h2>
-    <p class="article-meta">
-      2020-05-16
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://onenote2016.github.io/post/plc-xi-ti-ji/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://onenote2016.github.io/post/cong-zi-bei-dao-zi-xin/">Diligent</a>
-    </h2>
-    <p class="article-meta">
-      2020-05-16
-      
-    </p>
-    <p class="text-lead">
-      <p>the workhrad linear with the workout💪💪💪💪💪</p>
-
-    </p>
-    <div class="row">
-      <a href="https://onenote2016.github.io/post/cong-zi-bei-dao-zi-xin/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://onenote2016.github.io/post/do-my-self/">DO MY SELF</a>
-    </h2>
-    <p class="article-meta">
-      2020-05-16
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://onenote2016.github.io/post/do-my-self/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-
-        </div>
-        
-        <div class="row flex-edges">
-  
-  
-</div>
-
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
+    </div>
+    <div>
       
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://onenote2016.github.io/images/avatar.png?v=1589681052991" class="no-responsive avatar">
-    <div class="text-muted">快要退休的大学生</div>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
     <div class="social-container">
       
         
-          <a href="https://github.com/" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
       
         
       
         
-          <a href="https://weibo.com/u/5865718858/home?wvr=5&amp;sudaref=graph.qq.com" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
       
-        
-          <a href="https://www.zhihu.com/" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
         
       
         
       
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      NEWS FLIE
+    <div class="site-description">
+      快要退休的大学生
     </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://onenote2016.github.io/post/ji-suan-ji-ji-zhu-kong-zhi/">计算机技术控制</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://onenote2016.github.io/post/gridea-jiao-cheng/">Gridea教程（没有完工）</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://onenote2016.github.io/post/plc-xi-ti-ji/">PLC习题集</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://onenote2016.github.io/post/cong-zi-bei-dao-zi-xin/">Diligent</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://onenote2016.github.io/post/do-my-self/">DO MY SELF</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://onenote2016.github.io/post/规划/">五月规划</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://onenote2016.github.io/post/about/">关于</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://onenote2016.github.io/post/hello-gridea/">Hello Gridea</a>
-            </li>
-          
-        
-      </ul>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://onenote2016.github.io/atom.xml" target="_blank">RSS</a>
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      LIST
-    </div>
-    <div class="row">
-      
-        <a href="https://onenote2016.github.io/tag/ZJJkRK_AJ/" class="badge ">
-          Gridea
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://onenote2016.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
-    </div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://onenote2016.github.io/post/规划/">
+                  <h2 class="post-title">五月规划</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-16
+                </div>
+                <div class="post-abstract">
+                  <p>👍👍👍👍👍👍</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://onenote2016.github.io/post/规划/">
+                  <div class="feature-container" style="background-image: url('https://onenote2016.github.io/post-images/规划.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://onenote2016.github.io/post/ji-suan-ji-ji-zhu-kong-zhi/">
+                  <h2 class="post-title">计算机技术控制</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-17
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://onenote2016.github.io/post/gridea-jiao-cheng/">
+                  <h2 class="post-title">Gridea教程（没有完工）</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-17
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://onenote2016.github.io/post/plc-xi-ti-ji/">
+                  <h2 class="post-title">PLC习题集</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-16
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://onenote2016.github.io/post/cong-zi-bei-dao-zi-xin/">
+                  <h2 class="post-title">Diligent</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-16
+                </div>
+                <div class="post-abstract">
+                  <p>the workhrad linear with the workout💪💪💪💪💪</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://onenote2016.github.io/post/cong-zi-bei-dao-zi-xin/">
+                  <div class="feature-container" style="background-image: url('https://onenote2016.github.io/post-images/cong-zi-bei-dao-zi-xin.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://onenote2016.github.io/post/do-my-self/">
+                  <h2 class="post-title">DO MY SELF</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-16
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://onenote2016.github.io/post/do-my-self/">
+                  <div class="feature-container" style="background-image: url('https://onenote2016.github.io/post-images/do-my-self.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
 
 
 
