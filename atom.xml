@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://onenote2016.github.io</id>
     <title>国家一级保护废物</title>
-    <updated>2020-05-19T08:53:41.702Z</updated>
+    <updated>2020-05-19T08:57:22.217Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://onenote2016.github.io"/>
     <link rel="self" href="https://onenote2016.github.io/atom.xml"/>
@@ -16,6 +16,18 @@
         <link href="https://onenote2016.github.io/post/an-zhao-xi-tong-he-gong-neng-she-zhi/">
         </link>
         <updated>2020-05-19T02:25:30.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<blockquote>
+<p>计算机控制技术的第二节课</p>
+</blockquote>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<blockquote>
+<p>计算机控制技术的第二节课</p>
+</blockquote>
+</blockquote>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[自闭化工作室]]></title>
@@ -23,6 +35,14 @@
         <link href="https://onenote2016.github.io/post/zi-bi-hua-gong-zuo-shi/">
         </link>
         <updated>2020-05-18T23:08:22.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>如果爱太荒凉 我陪你梦一场 赎回你所有泪光</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>如果爱太荒凉 我陪你梦一场 赎回你所有泪光</p>
+</blockquote>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[计算机技术控制1]]></title>
