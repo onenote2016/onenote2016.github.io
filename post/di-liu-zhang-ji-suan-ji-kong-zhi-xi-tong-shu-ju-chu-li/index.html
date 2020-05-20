@@ -111,7 +111,7 @@
 3. 设定要搜索的关键字
 4. 从表格第一项开始，比较表格数据和关键字，进行数据比较
 </code></pre>
-<p>流程图<br>
+<p><em>流程图</em><br>
 <img src="https://onenote2016.github.io/post-images/1589968110944.png" alt="" loading="lazy"></p>
 <pre><code>特点 
    速度慢，表格要求最宽松
@@ -122,7 +122,7 @@
   2. 注意范围
 </code></pre>
 <h3 id="对分查表法重点">对分查表法（重点）</h3>
-<p>流程图<br>
+<p><em>流程图</em><br>
 <img src="https://onenote2016.github.io/post-images/1589968125586.png" alt="" loading="lazy"></p>
 <pre><code> 要求:
     只要求有大小顺序
@@ -138,32 +138,31 @@
 <h3 id="滤波方法">滤波方法</h3>
 <h4 id="程序判断滤波">程序判断滤波</h4>
 <pre><code>种类
-
-       1. 限幅滤波（子程序） 特点：适用于变化比较慢的参数过滤掉尖峰形式的干扰￼￼￼
+       1. 限幅滤波（子程序） 特点：适用于变化比较慢的参数过滤掉尖峰形式的干扰
        2. 限速滤波（实时系统）
 </code></pre>
-<p>流程图</p>
+<p><em>流程图</em></p>
 <ol>
 <li>
 <p>限幅滤波：</p>
-<pre><code>`│Yn-Yn-1│≤△y, 则Yn=Yn ，取本次采样值`
-
-`│Yn-Yn-1│&gt;△y, 则Yn=Yn-1 ，取上次采样值`
+<pre><code>│Yn-Yn-1│≤△y, 则Yn=Yn ，取本次采样值
+│Yn-Yn-1│&gt;△y, 则Yn=Yn-1 ，取上次采样值
 </code></pre>
 </li>
 </ol>
 <figure data-type="image" tabindex="1"><img src="https://onenote2016.github.io/post-images/1589968153799.png" alt="" loading="lazy"></figure>
-<ol>
+<ol start="2">
 <li>限速滤波：</li>
 </ol>
 <figure data-type="image" tabindex="2"><img src="https://onenote2016.github.io/post-images/1589968160528.png" alt="" loading="lazy"></figure>
-<h4 id="中值滤波脉动的信号">中值滤波（脉动的信号）</h4>
-<pre><code> 特点
+<p>中值滤波（脉动的信号）</p>
+<pre><code> 1. 特点
  变化较慢的参数 滤波较好
-
- 平均值滤波
-
- 种类
+ 2. *流程图*
+</code></pre>
+<figure data-type="image" tabindex="3"><img src="https://onenote2016.github.io/post-images/1589970766715.png" alt="" loading="lazy"></figure>
+<h4 id="平均值滤波">平均值滤波</h4>
+<pre><code> 种类
 
  1. 算术平均值滤波（脉动干扰）群优的思想，采回来的信号取算术平均值
  2. 加权平均值滤波
@@ -177,12 +176,14 @@
 <h4 id="rc低通数字滤波">RC低通数字滤波</h4>
 <p>特点<br>
 对慢速的随机变量周期性干扰优抑制作用</p>
-<p>流程图<br>
+<p><em>流程图</em><br>
 <img src="https://onenote2016.github.io/post-images/1589968668849.png" alt="" loading="lazy"></p>
 <h2 id="标度变换">标度变换</h2>
-<figure data-type="image" tabindex="3"><img src="https://onenote2016.github.io/post-images/1589968569895.png" alt="" loading="lazy"></figure>
+<p><em>流程图</em></p>
+<figure data-type="image" tabindex="4"><img src="https://onenote2016.github.io/post-images/1589968569895.png" alt="" loading="lazy"></figure>
 <h2 id="标度变换简化">标度变换简化</h2>
-<figure data-type="image" tabindex="4"><img src="https://onenote2016.github.io/post-images/1589968593337.png" alt="" loading="lazy"></figure>
+<p><em>流程图</em></p>
+<figure data-type="image" tabindex="5"><img src="https://onenote2016.github.io/post-images/1589968593337.png" alt="" loading="lazy"></figure>
 <h2 id="线性插值法">线性插值法</h2>
 <pre><code>步骤
 （1）用实验法测出传感器输出特性曲线，应尽可能保证该曲线的精确性；
@@ -204,11 +205,11 @@
 
  流程图
 </code></pre>
-<figure data-type="image" tabindex="5"><img src="https://onenote2016.github.io/post-images/1589968445514.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://onenote2016.github.io/post-images/1589968445514.png" alt="" loading="lazy"></figure>
 <pre><code>   先选插值点，选择4个插值基点（V1，T1）、（V2，T2）、（V3，T3）、（V4，T4），然后写出
    每段曲线的插值函数表达式
 </code></pre>
-<figure data-type="image" tabindex="6"><img src="https://onenote2016.github.io/post-images/1589968464838.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://onenote2016.github.io/post-images/1589968464838.png" alt="" loading="lazy"></figure>
 <h2 id="二次抛物线插值法">二次抛物线插值法</h2>
 <pre><code> 优点
   提高补偿精度
@@ -273,7 +274,7 @@
 <li><a href="#%E6%BB%A4%E6%B3%A2%E6%96%B9%E6%B3%95">滤波方法</a>
 <ul>
 <li><a href="#%E7%A8%8B%E5%BA%8F%E5%88%A4%E6%96%AD%E6%BB%A4%E6%B3%A2">程序判断滤波</a></li>
-<li><a href="#%E4%B8%AD%E5%80%BC%E6%BB%A4%E6%B3%A2%E8%84%89%E5%8A%A8%E7%9A%84%E4%BF%A1%E5%8F%B7">中值滤波（脉动的信号）</a></li>
+<li><a href="#%E5%B9%B3%E5%9D%87%E5%80%BC%E6%BB%A4%E6%B3%A2">平均值滤波</a></li>
 <li><a href="#rc%E4%BD%8E%E9%80%9A%E6%95%B0%E5%AD%97%E6%BB%A4%E6%B3%A2">RC低通数字滤波</a></li>
 </ul>
 </li>
