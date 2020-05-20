@@ -16,7 +16,6 @@
 
   <meta name="description" content="
 计算机技术控制第三节课
-没有图片（记得添加）
 
 
 第六章：计算机控制系统数据处理
@@ -25,11 +24,10 @@
 1. 可以各种程序代替电路，完全不需要硬件，降低成本
 2. 自动修改误差，提高精度
 3. 对被测参数进行复杂的计算和处理
-4. ..." />
+4. 实现对装置的监控，提高..." />
   <meta property="og:title" content="第六章：计算机控制系统数据处理 - 国家一级保护废物">
   <meta property="og:description" content="
 计算机技术控制第三节课
-没有图片（记得添加）
 
 
 第六章：计算机控制系统数据处理
@@ -38,7 +36,7 @@
 1. 可以各种程序代替电路，完全不需要硬件，降低成本
 2. 自动修改误差，提高精度
 3. 对被测参数进行复杂的计算和处理
-4. ..." />
+4. 实现对装置的监控，提高..." />
   <meta property="og:type" content="articles">
   <meta property="og:url" content="https://onenote2016.github.io/post/di-liu-zhang-ji-suan-ji-kong-zhi-xi-tong-shu-ju-chu-li/" />
   <meta property="og:image" content="https://onenote2016.github.io/images/avatar.png">
@@ -47,7 +45,6 @@
   <meta name="twitter:title" content="第六章：计算机控制系统数据处理 - 国家一级保护废物">
   <meta name="twitter:description" content="
 计算机技术控制第三节课
-没有图片（记得添加）
 
 
 第六章：计算机控制系统数据处理
@@ -56,7 +53,7 @@
 1. 可以各种程序代替电路，完全不需要硬件，降低成本
 2. 自动修改误差，提高精度
 3. 对被测参数进行复杂的计算和处理
-4. ...">
+4. 实现对装置的监控，提高...">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://onenote2016.github.io/post/di-liu-zhang-ji-suan-ji-kong-zhi-xi-tong-shu-ju-chu-li/">
 
@@ -90,8 +87,7 @@
         </div>
         <div class="markdown mb-8" v-pre>
           <blockquote>
-<p>计算机技术控制第三节课<br>
-没有图片（记得添加）</p>
+<p>计算机技术控制第三节课</p>
 </blockquote>
 <!-- more -->
 <h1 id="第六章计算机控制系统数据处理">第六章：计算机控制系统数据处理</h1>
@@ -143,12 +139,9 @@
 </code></pre>
 <p><em>流程图</em></p>
 <ol>
-<li>
-<p>限幅滤波：</p>
-<pre><code>│Yn-Yn-1│≤△y, 则Yn=Yn ，取本次采样值
-│Yn-Yn-1│&gt;△y, 则Yn=Yn-1 ，取上次采样值
-</code></pre>
-</li>
+<li>限幅滤波：<br>
+1. │Yn-Yn-1│≤△y, 则Yn=Yn ，取本次采样值<br>
+2. │Yn-Yn-1│&gt;△y, 则Yn=Yn-1 ，取上次采样值</li>
 </ol>
 <figure data-type="image" tabindex="1"><img src="https://onenote2016.github.io/post-images/1589968153799.png" alt="" loading="lazy"></figure>
 <ol start="2">
@@ -174,8 +167,9 @@
 对慢速的随机变量周期性干扰优抑制作用
 </code></pre>
 <h4 id="rc低通数字滤波">RC低通数字滤波</h4>
-<p>特点<br>
-对慢速的随机变量周期性干扰优抑制作用</p>
+<h5 id="特点">特点</h5>
+<pre><code>对慢速的随机变量周期性干扰优抑制作用
+</code></pre>
 <p><em>流程图</em><br>
 <img src="https://onenote2016.github.io/post-images/1589968668849.png" alt="" loading="lazy"></p>
 <h2 id="标度变换">标度变换</h2>
@@ -200,22 +194,21 @@
  1. 适用于变化率不大的线性插值
  2. 非均匀的插值
  3. 增加插值点的个数
-
-
-
- 流程图
 </code></pre>
-<figure data-type="image" tabindex="6"><img src="https://onenote2016.github.io/post-images/1589968445514.png" alt="" loading="lazy"></figure>
+<p>流程图<br>
+<img src="https://onenote2016.github.io/post-images/1589968445514.png" alt="" loading="lazy"></p>
 <pre><code>   先选插值点，选择4个插值基点（V1，T1）、（V2，T2）、（V3，T3）、（V4，T4），然后写出
    每段曲线的插值函数表达式
 </code></pre>
-<figure data-type="image" tabindex="7"><img src="https://onenote2016.github.io/post-images/1589968464838.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://onenote2016.github.io/post-images/1589968464838.png" alt="" loading="lazy"></figure>
 <h2 id="二次抛物线插值法">二次抛物线插值法</h2>
 <pre><code> 优点
   提高补偿精度
 </code></pre>
 <p>流程图<br>
 <img src="https://onenote2016.github.io/post-images/1589968473373.png" alt="" loading="lazy"></p>
+<p>文章的最后欢迎大家访问<a href="http://axky.ys168.com/">资源（内有福利）</a></p>
+<p><em><strong>文章的最后，预告一波，下一篇文章在明天上传到我的博客上面</strong></em></p>
 
         </div>
         <!-- Share to Twitter, Weibo, Telegram -->
@@ -275,7 +268,11 @@
 <ul>
 <li><a href="#%E7%A8%8B%E5%BA%8F%E5%88%A4%E6%96%AD%E6%BB%A4%E6%B3%A2">程序判断滤波</a></li>
 <li><a href="#%E5%B9%B3%E5%9D%87%E5%80%BC%E6%BB%A4%E6%B3%A2">平均值滤波</a></li>
-<li><a href="#rc%E4%BD%8E%E9%80%9A%E6%95%B0%E5%AD%97%E6%BB%A4%E6%B3%A2">RC低通数字滤波</a></li>
+<li><a href="#rc%E4%BD%8E%E9%80%9A%E6%95%B0%E5%AD%97%E6%BB%A4%E6%B3%A2">RC低通数字滤波</a>
+<ul>
+<li><a href="#%E7%89%B9%E7%82%B9">特点</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
