@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://onenote2016.github.io</id>
     <title>国家一级保护废物</title>
-    <updated>2020-05-23T08:31:52.076Z</updated>
+    <updated>2020-05-23T14:58:31.533Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://onenote2016.github.io"/>
     <link rel="self" href="https://onenote2016.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://onenote2016.github.io/images/avatar.png</logo>
     <icon>https://onenote2016.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 国家一级保护废物</rights>
+    <entry>
+        <title type="html"><![CDATA[常用函数使用方法]]></title>
+        <id>https://onenote2016.github.io/post/chang-yong-han-shu-shi-yong-fang-fa/</id>
+        <link href="https://onenote2016.github.io/post/chang-yong-han-shu-shi-yong-fang-fa/">
+        </link>
+        <updated>2020-05-23T14:51:50.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>办公室小白必看😎😎😎😎</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>办公室小白必看😎😎😎😎</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NEWS]]></title>
         <id>https://onenote2016.github.io/post/news/</id>
@@ -146,21 +161,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>自律</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[备考总结]]></title>
-        <id>https://onenote2016.github.io/post/bei-kao-zong-jie/</id>
-        <link href="https://onenote2016.github.io/post/bei-kao-zong-jie/">
-        </link>
-        <updated>2020-05-19T09:30:40.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>自我反思和总结</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>自我反思和总结</p>
 </blockquote>
 ]]></content>
     </entry>
