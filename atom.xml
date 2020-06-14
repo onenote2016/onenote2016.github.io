@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://onenote2016.github.io</id>
     <title>国家一级保护废物</title>
-    <updated>2020-06-12T11:29:20.479Z</updated>
+    <updated>2020-06-14T10:34:18.946Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://onenote2016.github.io"/>
     <link rel="self" href="https://onenote2016.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://onenote2016.github.io/images/avatar.png</logo>
     <icon>https://onenote2016.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 国家一级保护废物</rights>
+    <entry>
+        <title type="html"><![CDATA[日常]]></title>
+        <id>https://onenote2016.github.io/post/ri-chang/</id>
+        <link href="https://onenote2016.github.io/post/ri-chang/">
+        </link>
+        <updated>2020-06-14T10:33:46.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>监督自己</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>监督自己</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[英语作文]]></title>
         <id>https://onenote2016.github.io/post/ying-yu-zuo-wen/</id>
@@ -144,23 +159,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>每日必做</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[时间规划表]]></title>
-        <id>https://onenote2016.github.io/post/shi-jian-gui-hua-biao/</id>
-        <link href="https://onenote2016.github.io/post/shi-jian-gui-hua-biao/">
-        </link>
-        <updated>2020-05-19T10:54:57.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>六月份的规划<br>
-勤奋，反思，计划，目标，总结</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>六月份的规划<br>
-勤奋，反思，计划，目标，总结</p>
 </blockquote>
 ]]></content>
     </entry>
