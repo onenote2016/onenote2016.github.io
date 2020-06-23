@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://onenote2016.github.io</id>
     <title>国家一级保护废物</title>
-    <updated>2020-06-17T15:17:56.147Z</updated>
+    <updated>2020-06-23T10:56:04.833Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://onenote2016.github.io"/>
     <link rel="self" href="https://onenote2016.github.io/atom.xml"/>
@@ -82,7 +82,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[NEWS]]></title>
+        <title type="html"><![CDATA[English words.old]]></title>
         <id>https://onenote2016.github.io/post/news/</id>
         <link href="https://onenote2016.github.io/post/news/">
         </link>
@@ -123,6 +123,29 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>不愿做睡狮</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[过去到现在]]></title>
+        <id>https://onenote2016.github.io/post/guo-qu-dao-xian-zai/</id>
+        <link href="https://onenote2016.github.io/post/guo-qu-dao-xian-zai/">
+        </link>
+        <updated>2020-05-20T15:00:19.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>PAST——&gt;NOW<br>
+今日からは今日からの　明日からは明日からの<br>
+那些内心黑暗的东西，都是能够杀死我而存在的<br>
+有些所谓的学习，不过是浪费时间地缓解焦虑和交智商税，自我满足<br>
+不要放弃啊</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>PAST——&gt;NOW<br>
+今日からは今日からの　明日からは明日からの<br>
+那些内心黑暗的东西，都是能够杀死我而存在的<br>
+有些所谓的学习，不过是浪费时间地缓解焦虑和交智商税，自我满足<br>
+不要放弃啊</p>
 </blockquote>
 ]]></content>
     </entry>
